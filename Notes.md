@@ -9,7 +9,7 @@
 
 ##### Telegraf
 
-[Telegraf Documentation](https://docs.influxdata.com/telegraf/v1.23/get_started/#configure-telegraf)
+[Link to --> Telegraf Documentation](https://docs.influxdata.com/telegraf/v1.23/get_started/#configure-telegraf)
 
 
 ```sh
