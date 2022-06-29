@@ -8,6 +8,10 @@
 ## Telemetry
 
 ##### Telegraf
+
+[Telegraf Documentation](https://docs.influxdata.com/telegraf/v1.23/get_started/#configure-telegraf)
+
+
 ```sh
 $ telegraf --sample-config --input-filter cpu:mem --output-filter influxdb_v2 > telegraf.conf
 
