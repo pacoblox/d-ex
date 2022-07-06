@@ -99,3 +99,44 @@ $ telegraf --sample-config --input-filter cpu:mem --output-filter influxdb_v2 > 
 
 
 ```
+
+
+
+## NSO
+##### NSO Installation
+```
+$ ./nso-5.3.2.linux.x86_64.signed.bin
+$ ./nso-5.3.2.linux.x86_64.installer.bin ~/nso-5.3.2
+#Edit Bashrc
+~/.bashrc
+# Add the line at the end of the .bashrc file
+source /home/$USER/ncs-5.3.2/ncsrc
+source ~/.bashrc
+
+ncs
+ncs --status
+# Cisco CLI
+ncs_cli -C -u admin
+# Juniper
+ncs_cli -J -u admin
+
+
+```
+##### NEDS
+
+$ cp -r cisco-ios-cli-6.54 /home/nso-run/packages
+$ cp -r cisco-iosxr-cli-7.26 /home/nso-run/packages
+$ cp -r cisco-nx-cli-5.15 /home/nso-run/packages
+
+$ ncs_cli -C -u admin
+admin@ncs# packages reload
+admin@ncs# show packages package package-version
+
+```
+##### NETSIM
+```
+ncs-netsim start
+ncs-netsim list
+ncs-netsim is-alive
+ncs-netsim cli-c PE11
+```
