@@ -109,6 +109,7 @@ Primary Components
 
 NSO Arch
 - Core Engine
+  - CDB
 - Device Manager
   - SouthBound APIS
   - YANG - DEVICE MODELS
