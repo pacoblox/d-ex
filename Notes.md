@@ -112,6 +112,12 @@ NSO Arch
 - Device Manager
   - SouthBound APIS
   - YANG - DEVICE MODELS
+- Service Manager
+  - Service Manager
+  - Service Models
+- Mapping Logic
+  - Template
+  - FASTMAP
 
 ##### NSO Installation
 ```
