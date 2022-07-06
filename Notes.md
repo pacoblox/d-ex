@@ -110,8 +110,8 @@ Primary Components
 NSO Arch
 - Core Engine
 - Device Manager
-  . SouthBound APIS
-  . YANG - DEVICE MODELS
+  - SouthBound APIS
+  - YANG - DEVICE MODELS
 
 ##### NSO Installation
 ```
