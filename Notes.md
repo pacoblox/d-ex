@@ -103,6 +103,16 @@ $ telegraf --sample-config --input-filter cpu:mem --output-filter influxdb_v2 > 
 
 
 ## NSO
+Primary Components
+- NETCONF : for auto and mgmt on neds
+- YANG: for modeling services and devices.
+
+NSO Arch
+- Core Engine
+- Device Manager
+  . SouthBound APIS
+  . YANG - DEVICE MODELS
+
 ##### NSO Installation
 ```
 $ ./nso-5.3.2.linux.x86_64.signed.bin
