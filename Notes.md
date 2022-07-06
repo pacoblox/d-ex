@@ -120,6 +120,16 @@ NSO Arch
   - Template
   - FASTMAP
 
+- SDN Ref Architecture
+  - Service Layer/Specification Layer(Control Program)
+    - Hides Complexities, model-to-model mapping, transactional
+  - Network OS Layer (e.g NSO)
+    - transactional to protect error and activation complaxity
+    - model to multiple protocls mapping.
+  - Forwarding Layer ( Protocols)
+    - Controlled by OpenFlow or CLI, SNMP and NETCONF
+    - Mix of traditional and openflow devices
+    - All Device behaviors describe using device Data Models
 ##### NSO Installation
 ```
 $ ./nso-5.3.2.linux.x86_64.signed.bin
