@@ -123,7 +123,7 @@ ncs_cli -J -u admin
 
 ```
 ##### NEDS
-
+```
 $ cp -r cisco-ios-cli-6.54 /home/nso-run/packages
 $ cp -r cisco-iosxr-cli-7.26 /home/nso-run/packages
 $ cp -r cisco-nx-cli-5.15 /home/nso-run/packages
