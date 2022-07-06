@@ -134,9 +134,19 @@ admin@ncs# show packages package package-version
 
 ```
 ##### NETSIM
+
+
+
+
 ```
+
+ncs-netsim --help
+ncs-netsim create network ~/nso-run/packages/neds/cisco-ios.cli 3 PE
 ncs-netsim start
 ncs-netsim list
 ncs-netsim is-alive
 ncs-netsim cli-c PE11
 ```
+    ncs_cli -C -u admin
+    ssh admin@localhost -p 2024
+    http://localhost:8080
