@@ -99,7 +99,17 @@ $ telegraf --sample-config --input-filter cpu:mem --output-filter influxdb_v2 > 
 
 
 ```
+```python
+import requests
 
+url = 'https://172.29.80.100/'
+
+request = requests.get(url,verify=False)
+
+print(request.status_code)
+
+
+```
 
 
 ## NSO
